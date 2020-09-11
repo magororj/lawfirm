@@ -1,0 +1,237 @@
+@import "custom_variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+html{
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+body{background-color: #f6f6f6; position: relative;}
+
+p{font-size: 14px;
+    line-height: 20px;
+    color: #22313f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    }
+
+
+.barra-topo{background-color:#0f75bd; height: 40px; color: #fff; padding-top: 8px;}
+.barra-topo .tel{margin-top: -7px;     margin-bottom: 0px;}
+.navbar-top{height: 162px;margin: 0}
+.navbar-brand{margin: 0; padding: 0;}
+#navbar{
+    margin-top: 50px; 
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #0f75bd;
+    font-weight: 400;
+    
+}
+.barra-topo .redes{margin-top: -5px !important;}
+.redes>li{ border: 2px solid #f6f6f6;padding: 5px 8px;} 
+
+#navbar .nav>li>a:hover, .nav>li>a:focus{background-color: transparent;
+    border-top: 7px solid #0f75bd;}
+#navbar .nav>li>a {border-top: 7px solid transparent;}
+
+#banner{
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    
+}
+#banner .container{padding: 0 !important;}
+.fundo-transp{background-color: rgba($color: #ffffff, $alpha: 0.44);
+height: 400px; }
+#banner div{padding-left: 59px;}
+#banner h1{
+    font-size: 36px;
+    color: #22313f;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    margin-top: 96px;
+}
+#banner p{font-size: 14px;
+    line-height: 20px;
+    color: #22313f;
+    font-weight: 400;
+    
+margin-right: 61px;}
+
+#banner a {text-transform: uppercase;font-size: 18px;
+    line-height: 30px;
+    color: #0f75bd;
+    font-weight: 600;
+    font-family: "Raleway";
+    border: 2px solid #0f75bd;
+    background-color: transparent;
+    margin-top:34px;
+}
+.titulo{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #22313f;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+#atuacao{padding-top: 82px;
+padding-bottom: 61px;}
+.titulo{
+    height: 100px;
+    background-image: url("../img/louros.png"); 
+    background-repeat: no-repeat; 
+    background-position-x: center; 
+    background-position-y: top; }
+.btn-warning{
+        font-size: 24px;
+        line-height: 30px;
+        color: #22313f;
+        font-weight: 600;
+        font-family: "Raleway";
+        padding: 30px 100px;
+        margin: 55px 0 0;
+     }
+#atuacao h2, #artigos h2, #onde-estamos h2, #quem-somos h2{line-height: 3.1;}
+
+#atuacao h3{font-size: 18px;
+    line-height: 30px;
+    color: #22313f;
+    font-weight: 600;
+    font-family: "Raleway";}
+#atuacao img{margin: 0 auto;}
+#atuacao p, #artigos p{font-size: 14px;
+    line-height: 20px;
+    color: #22313f;
+    font-weight: 400;
+    }
+ 
+ #citacao {padding: 60px 0;}
+ #citacao p{font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+    color: #ffffff;}
+#citacao span{font-size: 48px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";}
+#citacao h3{    color: #fff;
+    margin-top: -7px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Raleway";}
+
+#quem-somos{padding: 82px 0 61px;}
+#quem-somos .nav-tabs{border-bottom: none;}
+#quem-somos .nav>li>a {padding: 0;}
+#quem-somos .nav-tabs>li>a {margin-right: 0;}
+#quem-somos .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{border:none;}
+#quem-somos .caixab{
+    position: absolute;
+    background-color: rgba(255,255,255,0.44);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;display: none;}
+#quem-somos a:hover .caixab{display: block; cursor: pointer;}
+#quem-somos .caixab p{
+    font-size: 18px;
+    left: 25%;
+    bottom: 20px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+#cta{background-color: #0f75bd;  padding-top: 0x;}
+#cta h3, #cta p {color: #fff;}
+#cta p{font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: "Open Sans";}
+#cta .pergunta{margin-top: 44px;}
+#cta button{margin-bottom: 54px;}
+#artigos{   padding: 82px 0 61px;}
+#artigos img{width: 100%;}
+
+#artigos .box{
+    background-color: #0a2e48;
+    padding: 6px 20px;
+    color: #fff;
+    min-height: 100px;
+}
+#artigos h3{font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";}
+#artigos .myrow{margin: 0 -10px; display: flex;}
+#artigos .mycol{width: 33.33%; float: left; padding: 0 10px;}
+#artigos .content{    padding: 30px 20px 23px;
+    background-color: #fff;
+    min-height: 215px;
+}
+#artigos .data{font-size: 12px;
+    line-height: 20px;
+    color: #7d7d7d;
+    font-weight: 400;
+    
+padding-bottom:10px ;}
+
+#cta-news{background-color: #0f75bd; min-height: 104px;position: relative; padding-top: 14px;}
+#cta-news::before{background-image: url(../img/logo_footer.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    content: "";
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: -72%;
+    opacity: 44%;
+    background-position-y: -39px;
+    background-size: 258px;}
+#cta-news p{font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+padding-top: 10px;}
+.cta-news-form input{
+    width: 70%;
+    height: 50px;
+    float: left;
+}
+.cta-news-form button{    width: 30%; height: 50px;}
+
+    #onde-estamos{   padding: 82px 0 61px;}
+
+#onde-estamos img{ border: 15px solid #fff; width: 100%;}
+
+#content-footer{background-color: #22313f ; padding-top: 40px;}
+#content-footer .navbar{border-radius: 0 ; border: 0;}
+.navbar-inverse{background-color:#1a2530; border-color: transparent !important;
+border-color: transparent;}
+#content-footer .logo{margin: 60px 0;}
+#content-footer h4, #content-footer p, #content-footer address {color: #fff;}
+#content-footer .endereco{border-left: 1px solid #f6f6f6;padding-left: 70px;}
+#content-footer .form-footer{margin-bottom: 50px;}
+#menu-footer{margin-left: 16%;
+    text-transform: uppercase;}
+#menu-footer>li{margin: 0 20px !important;}
+
